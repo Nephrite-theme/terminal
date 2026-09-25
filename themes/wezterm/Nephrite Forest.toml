@@ -12,7 +12,7 @@ selection_bg = "#324139"
 selection_fg = "#e0ebe5"
 split = "#25342c"
 ansi = ["#25342c", "#ffa09c", "#4dbf74", "#d9bb5c", "#89c3fe", "#d0aafc", "#43d5dc", "#b4c1ba"]
-brights = ["#324139", "#ffa09c", "#5ed7b5", "#d9bb5c", "#89c3fe", "#f99dc6", "#43d5dc", "#e0ebe5"]
+brights = ["#76847c", "#ffa09c", "#5ed7b5", "#d9bb5c", "#89c3fe", "#f99dc6", "#43d5dc", "#e0ebe5"]
 
 [colors.tab_bar]
 background = "#050e09"

@@ -1,0 +1,25 @@
+name: Nephrite Jade
+accent: '#4dbf74'
+cursor: '#4dbf74'
+background: '#132e20'
+foreground: '#e7f2eb'
+details: darker
+terminal_colors:
+  normal:
+    black: '#2e4639'
+    red: '#ffaaa7'
+    green: '#4dbf74'
+    yellow: '#e0c262'
+    blue: '#96c9fe'
+    magenta: '#d5b2ff'
+    cyan: '#4cdbe3'
+    white: '#bdccc3'
+  bright:
+    black: '#7f9187'
+    red: '#ffaaa7'
+    green: '#65ddbb'
+    yellow: '#e0c262'
+    blue: '#96c9fe'
+    magenta: '#fea4cc'
+    cyan: '#4cdbe3'
+    white: '#e7f2eb'

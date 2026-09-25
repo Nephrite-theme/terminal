@@ -6,7 +6,7 @@
 
 **English** · [Español](README.es.md)
 
-A calm, jade-inspired color scheme for Windows Terminal, iTerm2, Alacritty, Kitty, Ghostty and WezTerm, in three flavors.
+A calm, jade-inspired color scheme for Windows Terminal, iTerm2, Alacritty, Kitty, Ghostty, Warp and WezTerm, in three flavors.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-3db87a)](LICENSE)
 [![Palette](https://img.shields.io/badge/palette-Nephrite-1f6b45)](https://github.com/Nephrite-theme/palette)
@@ -63,6 +63,14 @@ theme = Nephrite Forest
 
 To follow the system appearance, use `theme = light:Nephrite Mint,dark:Nephrite Forest`.
 
+### Warp
+
+Save [`nephrite-forest.yaml`](themes/warp/nephrite-forest.yaml) in Warp's themes folder, then pick **Nephrite Forest** in **Settings > Appearance > Themes**:
+
+- macOS: `~/.warp/themes/`
+- Windows: `%APPDATA%\warp\Warp\data\themes\`
+- Linux: `~/.local/share/warp-terminal/themes/`
+
 ### WezTerm
 
 Save [`Nephrite Forest.toml`](themes/wezterm/Nephrite%20Forest.toml) in `~/.config/wezterm/colors/`, then set it in `wezterm.lua`:
@@ -83,7 +91,7 @@ Every color comes from the [Nephrite palette](https://github.com/Nephrite-theme/
 | Selection | `surface2` behind `text` |
 | Links | `sapphire` |
 | Tab bar (Kitty, WezTerm) | `crust`, `base` for the active tab and `mantle` for the rest |
-| ANSI 0-15 | The palette's ANSI mapping: `garnet`, `jade`, `citrine`, `sapphire`, `amethyst`, `lagoon`, with `mint` and `rhodonite` as the bright green and magenta |
+| ANSI 0-15 | The palette's ANSI mapping: `garnet`, `jade`, `citrine`, `sapphire`, `amethyst`, `lagoon`, with `mint` and `rhodonite` as the bright green and magenta, and `overlay1` as bright black for dim text |
 
 ## Development
 

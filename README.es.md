@@ -6,7 +6,7 @@
 
 [English](README.md) · **Español**
 
-Un esquema de color sereno, inspirado en el jade, para Windows Terminal, iTerm2, Alacritty, Kitty, Ghostty y WezTerm, en tres sabores.
+Un esquema de color sereno, inspirado en el jade, para Windows Terminal, iTerm2, Alacritty, Kitty, Ghostty, Warp y WezTerm, en tres sabores.
 
 [![Licencia: MIT](https://img.shields.io/badge/licencia-MIT-3db87a)](LICENSE.es.md)
 [![Paleta](https://img.shields.io/badge/paleta-Nephrite-1f6b45)](https://github.com/Nephrite-theme/palette)
@@ -63,6 +63,14 @@ theme = Nephrite Forest
 
 Para seguir la apariencia del sistema, usa `theme = light:Nephrite Mint,dark:Nephrite Forest`.
 
+### Warp
+
+Guarda [`nephrite-forest.yaml`](themes/warp/nephrite-forest.yaml) en la carpeta de temas de Warp y elige **Nephrite Forest** en **Settings > Appearance > Themes**:
+
+- macOS: `~/.warp/themes/`
+- Windows: `%APPDATA%\warp\Warp\data\themes\`
+- Linux: `~/.local/share/warp-terminal/themes/`
+
 ### WezTerm
 
 Guarda [`Nephrite Forest.toml`](themes/wezterm/Nephrite%20Forest.toml) en `~/.config/wezterm/colors/` y actívalo en `wezterm.lua`:
@@ -83,7 +91,7 @@ Todos los colores vienen de la [paleta Nephrite](https://github.com/Nephrite-the
 | Selección | `surface2` detrás de `text` |
 | Enlaces | `sapphire` |
 | Barra de pestañas (Kitty, WezTerm) | `crust`, `base` para la pestaña activa y `mantle` para el resto |
-| ANSI 0-15 | La asignación ANSI de la paleta: `garnet`, `jade`, `citrine`, `sapphire`, `amethyst`, `lagoon`, con `mint` y `rhodonite` como verde y magenta brillantes |
+| ANSI 0-15 | La asignación ANSI de la paleta: `garnet`, `jade`, `citrine`, `sapphire`, `amethyst`, `lagoon`, con `mint` y `rhodonite` como verde y magenta brillantes, y `overlay1` como negro brillante para el texto tenue |
 
 ## Desarrollo
 

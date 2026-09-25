@@ -245,6 +245,28 @@ fg_color = "${r.tabInactiveText}"
 `;
 }
 
+// Warp: a YAML theme for Warp's themes directory.
+function warp(name, dark, c) {
+	const r = rolesOf(c);
+	const ansi = ansiOf(c);
+	const block = (offset) =>
+		["black", "red", "green", "yellow", "blue", "magenta", "cyan", "white"]
+			.map((slot, i) => `    ${slot}: '${ansi[offset + i]}'`)
+			.join("\n");
+	return `name: ${name}
+accent: '${c.jade}'
+cursor: '${r.cursor}'
+background: '${r.background}'
+foreground: '${r.foreground}'
+details: ${dark ? "darker" : "lighter"}
+terminal_colors:
+  normal:
+${block(0)}
+  bright:
+${block(8)}
+`;
+}
+
 for (const [key, flavor] of Object.entries(palette.flavors)) {
 	const name = `Nephrite ${flavor.name}`;
 	const c = flavor.colors;
@@ -254,7 +276,8 @@ for (const [key, flavor] of Object.entries(palette.flavors)) {
 	write(`themes/kitty/nephrite-${key}.conf`, kitty(name, c));
 	write(`themes/ghostty/${name}`, ghostty(c));
 	write(`themes/wezterm/${name}.toml`, wezterm(name, c));
-	console.log(`${key}: 6 terminals`);
+	write(`themes/warp/nephrite-${key}.yaml`, warp(name, flavor.dark, c));
+	console.log(`${key}: 7 terminals`);
 }
 
 // README swatches: the 16 ANSI colors plus background and foreground, so the

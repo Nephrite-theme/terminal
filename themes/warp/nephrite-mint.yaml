@@ -1,0 +1,25 @@
+name: Nephrite Mint
+accent: '#048149'
+cursor: '#048149'
+background: '#edfbf3'
+foreground: '#192e23'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#cbe1d4'
+    red: '#ad4b4b'
+    green: '#048149'
+    yellow: '#866c02'
+    blue: '#2672b7'
+    magenta: '#8058ab'
+    cyan: '#017b80'
+    white: '#3f5247'
+  bright:
+    black: '#607268'
+    red: '#ad4b4b'
+    green: '#037e65'
+    yellow: '#866c02'
+    blue: '#2672b7'
+    magenta: '#a54a77'
+    cyan: '#017b80'
+    white: '#192e23'

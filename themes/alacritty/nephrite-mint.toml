@@ -1,0 +1,41 @@
+# Nephrite Mint for Alacritty
+
+[colors.primary]
+background = "#edfbf3"
+foreground = "#192e23"
+
+[colors.cursor]
+cursor = "#048149"
+text = "#edfbf3"
+
+[colors.selection]
+background = "#bdd5c7"
+text = "#192e23"
+
+[colors.hints.start]
+background = "#866c02"
+foreground = "#edfbf3"
+
+[colors.hints.end]
+background = "#bdd5c7"
+foreground = "#192e23"
+
+[colors.normal]
+black = "#cbe1d4"
+red = "#ad4b4b"
+green = "#048149"
+yellow = "#866c02"
+blue = "#2672b7"
+magenta = "#8058ab"
+cyan = "#017b80"
+white = "#3f5247"
+
+[colors.bright]
+black = "#bdd5c7"
+red = "#ad4b4b"
+green = "#037e65"
+yellow = "#866c02"
+blue = "#2672b7"
+magenta = "#a54a77"
+cyan = "#017b80"
+white = "#192e23"

@@ -1,0 +1,30 @@
+[metadata]
+name = "Nephrite Mint"
+origin_url = "https://github.com/Nephrite-theme/terminal"
+
+[colors]
+background = "#edfbf3"
+foreground = "#192e23"
+cursor_bg = "#048149"
+cursor_border = "#048149"
+cursor_fg = "#edfbf3"
+selection_bg = "#bdd5c7"
+selection_fg = "#192e23"
+split = "#cbe1d4"
+ansi = ["#cbe1d4", "#ad4b4b", "#048149", "#866c02", "#2672b7", "#8058ab", "#017b80", "#3f5247"]
+brights = ["#bdd5c7", "#ad4b4b", "#037e65", "#866c02", "#2672b7", "#a54a77", "#017b80", "#192e23"]
+
+[colors.tab_bar]
+background = "#c7ded1"
+
+[colors.tab_bar.active_tab]
+bg_color = "#edfbf3"
+fg_color = "#192e23"
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#d7eadf"
+fg_color = "#3f5247"
+
+[colors.tab_bar.new_tab]
+bg_color = "#c7ded1"
+fg_color = "#3f5247"

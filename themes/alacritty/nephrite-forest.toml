@@ -1,0 +1,41 @@
+# Nephrite Forest for Alacritty
+
+[colors.primary]
+background = "#0d1c14"
+foreground = "#e0ebe5"
+
+[colors.cursor]
+cursor = "#4dbf74"
+text = "#0d1c14"
+
+[colors.selection]
+background = "#324139"
+text = "#e0ebe5"
+
+[colors.hints.start]
+background = "#d9bb5c"
+foreground = "#0d1c14"
+
+[colors.hints.end]
+background = "#324139"
+foreground = "#e0ebe5"
+
+[colors.normal]
+black = "#25342c"
+red = "#ffa09c"
+green = "#4dbf74"
+yellow = "#d9bb5c"
+blue = "#89c3fe"
+magenta = "#d0aafc"
+cyan = "#43d5dc"
+white = "#b4c1ba"
+
+[colors.bright]
+black = "#324139"
+red = "#ffa09c"
+green = "#5ed7b5"
+yellow = "#d9bb5c"
+blue = "#89c3fe"
+magenta = "#f99dc6"
+cyan = "#43d5dc"
+white = "#e0ebe5"

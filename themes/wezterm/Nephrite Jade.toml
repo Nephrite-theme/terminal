@@ -1,0 +1,30 @@
+[metadata]
+name = "Nephrite Jade"
+origin_url = "https://github.com/Nephrite-theme/terminal"
+
+[colors]
+background = "#132e20"
+foreground = "#e7f2eb"
+cursor_bg = "#4dbf74"
+cursor_border = "#4dbf74"
+cursor_fg = "#132e20"
+selection_bg = "#3c5346"
+selection_fg = "#e7f2eb"
+split = "#2e4639"
+ansi = ["#2e4639", "#ffaaa7", "#4dbf74", "#e0c262", "#96c9fe", "#d5b2ff", "#4cdbe3", "#bdccc3"]
+brights = ["#3c5346", "#ffaaa7", "#65ddbb", "#e0c262", "#96c9fe", "#fea4cc", "#4cdbe3", "#e7f2eb"]
+
+[colors.tab_bar]
+background = "#0b1d13"
+
+[colors.tab_bar.active_tab]
+bg_color = "#132e20"
+fg_color = "#e7f2eb"
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#0e2419"
+fg_color = "#bdccc3"
+
+[colors.tab_bar.new_tab]
+bg_color = "#0b1d13"
+fg_color = "#bdccc3"

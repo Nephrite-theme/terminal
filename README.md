@@ -23,11 +23,21 @@ A calm, jade-inspired color scheme for Windows Terminal, iTerm2, Alacritty, Kitt
 
 ## Previews
 
+### Warp
+
 ![Nephrite Forest in Warp](assets/forest-warp.webp)
 
 ![Nephrite Jade in Warp](assets/jade-warp.webp)
 
 ![Nephrite Mint in Warp](assets/mint-warp.webp)
+
+### Windows Terminal
+
+![Nephrite Forest in Windows Terminal](assets/forest-windows-terminal.webp)
+
+![Nephrite Jade in Windows Terminal](assets/jade-windows-terminal.webp)
+
+![Nephrite Mint in Windows Terminal](assets/mint-windows-terminal.webp)
 
 ## Install
 

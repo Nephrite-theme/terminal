@@ -23,11 +23,21 @@ Un esquema de color sereno, inspirado en el jade, para Windows Terminal, iTerm2,
 
 ## Capturas
 
+### Warp
+
 ![Nephrite Forest en Warp](assets/forest-warp.webp)
 
 ![Nephrite Jade en Warp](assets/jade-warp.webp)
 
 ![Nephrite Mint en Warp](assets/mint-warp.webp)
+
+### Windows Terminal
+
+![Nephrite Forest en Windows Terminal](assets/forest-windows-terminal.webp)
+
+![Nephrite Jade en Windows Terminal](assets/jade-windows-terminal.webp)
+
+![Nephrite Mint en Windows Terminal](assets/mint-windows-terminal.webp)
 
 ## Instalación
 

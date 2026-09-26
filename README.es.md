@@ -35,9 +35,18 @@ Todos los archivos están en [`themes/`](themes), una carpeta por terminal. Camb
 
 ### Windows Terminal
 
-1. Abre **Configuración** y haz clic en **Abrir archivo JSON**, abajo a la izquierda.
-2. Pega el contenido de [`nephrite-forest.json`](themes/windows-terminal/nephrite-forest.json) dentro de la lista `"schemes"`.
-3. Guarda y elige **Nephrite Forest** en **Perfiles > Valores predeterminados > Apariencia > Combinación de colores**.
+1. Ejecuta esto en PowerShell. Guarda [`nephrite.json`](themes/windows-terminal/nephrite.json), con los tres sabores, en la carpeta de fragmentos de Terminal:
+
+   ```powershell
+   $dir = "$env:LOCALAPPDATA\Microsoft\Windows Terminal\Fragments\Nephrite"
+   New-Item -ItemType Directory -Force $dir | Out-Null
+   Invoke-WebRequest https://raw.githubusercontent.com/Nephrite-theme/terminal/main/themes/windows-terminal/nephrite.json -OutFile "$dir\nephrite.json"
+   ```
+
+2. Cierra todas las ventanas de Windows Terminal y ábrelo de nuevo.
+3. Abre **Configuración > Perfiles > Valores predeterminados > Apariencia**, elige **Nephrite Forest** en **Combinación de colores** y haz clic en **Guardar**.
+
+Para quitarlo, borra la carpeta `Fragments\Nephrite`. Si prefieres editar `settings.json` a mano, pega un solo sabor, como [`nephrite-forest.json`](themes/windows-terminal/nephrite-forest.json), dentro de su lista `"schemes"`.
 
 ### iTerm2
 

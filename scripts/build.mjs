@@ -280,6 +280,16 @@ for (const [key, flavor] of Object.entries(palette.flavors)) {
 	console.log(`${key}: 7 terminals`);
 }
 
+// Windows Terminal fragment: every flavor in one file that Terminal loads from
+// its Fragments folder, so installing doesn't mean editing settings.json.
+const fragment = {
+	schemes: Object.values(palette.flavors).map((flavor) =>
+		JSON.parse(windowsTerminal(`Nephrite ${flavor.name}`, flavor.colors)),
+	),
+};
+write("themes/windows-terminal/nephrite.json", `${JSON.stringify(fragment, null, 2)}\n`);
+console.log("windows terminal: fragment with every flavor");
+
 // README swatches: the 16 ANSI colors plus background and foreground, so the
 // preview shows exactly what a shell prints.
 mkdirSync(new URL("assets/", root), { recursive: true });

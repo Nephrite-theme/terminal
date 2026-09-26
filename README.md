@@ -35,9 +35,18 @@ Every file lives in [`themes/`](themes), one folder per terminal. Replace `fores
 
 ### Windows Terminal
 
-1. Open **Settings** and click **Open JSON file** at the bottom left.
-2. Paste the contents of [`nephrite-forest.json`](themes/windows-terminal/nephrite-forest.json) into the `"schemes"` list.
-3. Save, then pick **Nephrite Forest** under **Profiles > Defaults > Appearance > Color scheme**.
+1. Run this in PowerShell. It saves [`nephrite.json`](themes/windows-terminal/nephrite.json), with all three flavors, to Terminal's fragments folder:
+
+   ```powershell
+   $dir = "$env:LOCALAPPDATA\Microsoft\Windows Terminal\Fragments\Nephrite"
+   New-Item -ItemType Directory -Force $dir | Out-Null
+   Invoke-WebRequest https://raw.githubusercontent.com/Nephrite-theme/terminal/main/themes/windows-terminal/nephrite.json -OutFile "$dir\nephrite.json"
+   ```
+
+2. Close every Windows Terminal window and open it again.
+3. Open **Settings > Profiles > Defaults > Appearance**, pick **Nephrite Forest** under **Color scheme**, and click **Save**.
+
+To remove it, delete the `Fragments\Nephrite` folder. If you'd rather edit `settings.json` yourself, paste a single flavor, such as [`nephrite-forest.json`](themes/windows-terminal/nephrite-forest.json), into its `"schemes"` list.
 
 ### iTerm2
 

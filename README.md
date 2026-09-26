@@ -21,6 +21,14 @@ A calm, jade-inspired color scheme for Windows Terminal, iTerm2, Alacritty, Kitt
 | **Jade** | <img src="assets/jade.svg" alt="Jade ANSI colors" width="220"> | Dark with more green, for long days |
 | **Mint** | <img src="assets/mint.svg" alt="Mint ANSI colors" width="220"> | Light and airy, for daylight |
 
+## Previews
+
+![Nephrite Forest in Warp](assets/forest-warp.webp)
+
+![Nephrite Jade in Warp](assets/jade-warp.webp)
+
+![Nephrite Mint in Warp](assets/mint-warp.webp)
+
 ## Install
 
 Every file lives in [`themes/`](themes), one folder per terminal. Replace `forest` with `jade` or `mint` for another flavor.

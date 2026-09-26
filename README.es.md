@@ -21,6 +21,14 @@ Un esquema de color sereno, inspirado en el jade, para Windows Terminal, iTerm2,
 | **Jade** | <img src="assets/jade.svg" alt="Colores ANSI de Jade" width="220"> | Oscuro con más verde, para jornadas largas |
 | **Mint** | <img src="assets/mint.svg" alt="Colores ANSI de Mint" width="220"> | Claro y ligero, para el día |
 
+## Capturas
+
+![Nephrite Forest en Warp](assets/forest-warp.webp)
+
+![Nephrite Jade en Warp](assets/jade-warp.webp)
+
+![Nephrite Mint en Warp](assets/mint-warp.webp)
+
 ## Instalación
 
 Todos los archivos están en [`themes/`](themes), una carpeta por terminal. Cambia `forest` por `jade` o `mint` para otro sabor.
